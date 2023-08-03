@@ -27,13 +27,14 @@ body {
 }
 
 .card {
-  background: var(--card-bg-color);
+  background: #292931;
   color: var(--white-color);
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   max-width: 500px;
   margin: auto;
+  border: 1px solid #93defe;
 }
 
 .card-header, .card-button {
