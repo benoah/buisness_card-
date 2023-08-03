@@ -1,0 +1,134 @@
+.App {
+    text-align: center;
+    background: #23252C;
+    height: 100vh;
+  }
+  
+  
+  
+  .App-logo {
+    width: 317px;
+    height: 317px;
+    pointer-events: none;
+  }
+  
+  .name {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .job {
+    color: #F3BF99;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .portefolio {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 228px;
+    height: 16px;
+  }
+  
+  .btn {
+    border-radius: 6px;
+    border: 1px #D1D5DB solid;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    gap: 4px;
+  }
+  
+  .btn-link {
+    border-radius: 6px;
+    background: #5093E2;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card-button {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start of the container */
+    gap: 16px;
+  }
+  
+  .card-body {
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  
+    
+  }
+  
+
+  .body{}
+.App {
+
+  width: 550px;
+  height: 868px;
+  padding: 44px 117px 44px 116px;
+  background: #23252C;
+  color: white;
+  flex-shrink: 0;
+}
+
+.card-header{
+  width: 317px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+  
+.App-logo {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px;
+}
+
+
+.card-button{
+  display: flex;
+  margin-top: 16px;
+}
+
+.card-button {
+  display: flex;
+  justify-content: space-between;
+  width: 317px;
+  margin-top: 16px;
+  gap: 16px;
+}
+.btn{
+display: flex;
+width: 115px;
+padding: 9px 13px 9px 11px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+}
+
+
+ 

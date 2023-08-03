@@ -1,0 +1,140 @@
+:root {
+  --main-bg-color: #F5F5F5;
+  --card-bg-color: #1A1B21;
+  --white-color: #FFF;
+  --heading-color: #F3BF99;
+  --portfolio-color: #F5F5F5;
+  --btn-bg-color: var(--white-color);
+  --btn-link-bg-color: #5093E2;
+  --card-body-width: 247px;
+  --btn-width: 115px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  background: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 50px;
+}
+
+.card {
+  background: var(--card-bg-color);
+  color: var(--white-color);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  max-width: 500px;
+  margin: auto;
+}
+
+.card-header, .card-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  max-width: 317px;
+  border-radius: 24px 48px 24px 48px;
+  background: url("./avatar.png") lightgray -207.665px -133.577px / 210.625% 315.631% no-repeat;
+}
+
+h1, h2, h3 {
+  text-align: left;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+h1, h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.portfolio {
+  color: var(--portfolio-color);
+  text-align: center;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.card-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.btn {
+  width: var(--btn-width);
+  display: flex;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid #D1D5DB;
+  background: var(--btn-bg-color);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btn-link {
+  background: var(--btn-link-bg-color);
+}
+
+.card-body {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: var(--card-body-width);
+  margin-left: 24px;
+}
+
+p {
+  color: #DCDCDC;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  height: 61px;
+  margin-top: 0px;
+  white-space: pre-wrap;
+  margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  margin: auto;
+  padding: 16px;
+}
